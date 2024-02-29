@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo" id="#top">
+            <p>A<span class="koma">'</span></p>
+        </div>
+        <div class="navbar">
+            <a href="#top">Home</a>
+            <a href="#pro">Our Profile</a>
+            <a href="">Portofolio</a>
+            <a href="#tulisan">Message Us</a>
+        </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <section>
+        <div class="header">
+            <p>
+                <span class="company">A<span class="koma">'</span></span> adalah perusahaan prodosen cat tembok terkemuka yang berkomitmen untuk menyediakan solusi cat berkualitas tinggi untuk kebutuhan dekorasi dan perlindungan rumah anda. Dengan fokus pada inovasi, keberlantujan dan layanan pelangganan yang unggul, kami terus memperluas jangkauan produk dan meingkatkan kualitas produk kami untuk memenuhi harapan pelanggan.
+            </p>
+            <div class="visi-misi">
+                <p>Visi :<br>Menjadi pemimpin global dalam industri cat tembok dengan menyediakan produk berkualitas tinggi yang memberikan nilai tambah lagi bagi pelanggan kami</p>
+                <p>Misi :<br>- Menyediakan produk cat tembok berkualitas tinggi dengan berbagai warna <br>- Memberi pelayanan yang unggul, termasuk dukungan teknis dan konsultasi warna<br>- Mengadopsi praktik produksi yang berkelanjutan dan ramah lingkungan untuk mengurangi efek negatif terhadap lingkungan </p>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Headquarters -->
+    <section id="pro">
+        <div class="headquarters">
+            <h1>Our Headquarters</h1>
+            <div class="list-img">
+                <img src="images/1.jpg" alt="" class="img-office">
+                <img src="images/2.jpg" alt="" class="img-office">
+                <img src="images/3.jpg" alt="" class="img-office">
+            </div>
+            <div class="list-head">
+                <p>Jakarta</p>
+                <p>Bandung</p>
+                <p>Surabaya</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message US -->
+    <section id="tulisan">
+        <h1 class="head-message">Message Us</h1>
+        <div class="content">
+            <div class="message">
+                <form>
+                    <label for="nama">Nama :</label>
+                    <br>
+                    <input type="text" name="nama" id="nama" style="width: 100%;">
+                    <br>
+                    <label for="tanggal">Tanggal Lahir :</label>
+                    <br>
+                    <input type="date" name="tanggal" id="tanggal" style="width: 100%;">
+                    <br>
+                    <label for="jk">Jenis Kelamin :</label>
+                    <br>
+                    <select name="gender" id="gender" style="width: 100%; margin-left: 5px;">
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                    <br>
+                    <label for="pesan">Pesan :</label>
+                    <br>
+                    <input type="text" name="pesan" id="pesan" style="width: 100%; padding-bottom: 10%;">
+                    <br>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+            <div class="result">
+                <textarea name="hasil" id="hasil" cols="51" rows="18"></textarea>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Created By Ahmad L</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
